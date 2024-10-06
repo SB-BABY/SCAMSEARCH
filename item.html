@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- CSS -->
+    <title>SCAMSEARCH</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">
+                <h1 class="header__title">
+                    SCAMSEARCH
+                </h1>
+                <p class="header__descr">
+                    Всё инфа про $CUM
+                </p>
+            </div>
+
+            <div class="header__controls hidden-mobile">
+                <a href="/" class="header__link">Вход</a>
+                <div class="header__controls-slach"></div>
+                <a href="/" class="header__link">Регистрация</a>
+            </div>
+
+            <!-- БУРГЕР КНОПКА -->
+            <button class="header__burger-button burger-button visible-mobile" type="button"
+                onclick="mobileOverlay.showModal()">
+                <span class="visually-hidden">Open navigation menu</span>
+            </button>
+            <!-- БУРГЕР КНОПКА -->
+        </div>
+    </header>
+    <!-- HEADER -->
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- SEARCH -->
+        <section class="search">
+            <div class="container search__container">
+                <input type="text" class="search__input" placeholder="Что ищешь муд...">
+
+                <button class="search__btn">
+                    <span>Искать</span>
+                </button>
+            </div>
+        </section>
+        <!-- SEARCH -->
+
+        <!-- CONTENT -->
+        <section class="content">
+            <div class="content__container container">
+                <!-- DESCR -->
+                <div class="content__descr">
+                    <div class="content__descr-img">
+                        <img src="./image/CONTENT__FILM/1.jpg" alt="img">
+                    </div>
+
+                    <div class="content__descr-info">
+                        <div class="content__descr-property">
+                            <div class="content__descr-title">
+                                <h1>Xakep #303.</h1>
+                                <p>Свой Arch Linux</p>
+                            </div>
+
+                            <p class="content__descr-param">
+                                Linux, ban
+                            </p>
+
+                            <p class="content__descr-rating">
+                                8.9
+                            </p>
+
+                            <p class="content__descr-descr">
+                                Дистрибутив Arch Linux любят за его настраиваемость: в процессе установки ты можешь выбрать все компоненты на свой вкус и получить ровно такую систему, какая тебе нужна. В этом номере мы пойдем дальше и расскажем, как делать свои дистрибутивы на основе Arch. Соберем «живую» версию на флешке, подготовим кастомные дистрибутивы, которые можно в любой момент установить на десктоп или на Raspberry Pi, а также посмотрим, какие изменения потребуются, чтобы дистрибутив запускался на старых машинах с малым объемом памяти. В общем, даешь Arch на каждый компьютер!
+                            </p>
+                        </div>
+
+                        <button class="content__descr-btn">
+                            Заказать
+                        </button>
+                    </div>
+                </div>
+                <!-- DESCR -->
+
+                <!-- SIDEBAR -->
+                <div class="content__sidebar">
+                    <div class="content__sidebar-info">
+                        <h4 class="content__sidebar-title">
+                            Материалы для подписчиков
+                        </h4>
+
+                        <div class="content__sidebar-list">
+                            <div class="content__sidebar-item">
+                                <h5>Андрей Письменный</h5>
+                                <p>Старый добрый хостинг. Колонка главреда</p>
+                            </div>
+
+                            <div class="content__sidebar-item">
+                                <h5>j0rtxf</h5>
+                                <p>CobInt. Разбираем известный бэкдор и практикуемся в реверсе</p>
+                            </div>
+
+                            <div class="content__sidebar-item">
+                                <h5>Антон Шустиков</h5>
+                                <p>Младший Acunetix. На что способен бесплатный набор пентестерских утилит</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content__sidebar-footer">
+                        <p>OOO "SCAMSEARCH"</p>
+                        <a href="#">Вопросы по материалам и подписке</a>
+                        <a href="#">Отдел рекламы и спецпроектов</a>
+                    </div>
+                </div>
+                <!-- SIDEBAR -->
+            </div>
+        </section>
+        <!-- CONTENT -->
+
+    </main>
+    <!-- MAIN -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+    </footer>
+    <!-- FOOTER -->
+
+    <!-- SCRIPT -->
+    <script src="./script/main.js"></script>
+    <!-- SCRIPT -->
+
+    <!-- BURGER -->
+    <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+        <form class="mobile-overlay__close-button-wrapper" method="dialog">
+            <button class="mobile-overlay__close-button cross-button" type="submit">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="mobile-overlay__body">
+            <ul class="mobile-overlay__list dropdown__mobile" id="dropdown__mobile">
+                <li class="mobile-overlay__item">
+                    <a class="mobile-overlay__link" href="/">Вход</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a class="mobile-overlay__link" href="/">Регистрация</a>
+                </li>
+            </ul>
+        </div>
+    </dialog>
+
+</body>
+
+</html>

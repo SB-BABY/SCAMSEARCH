@@ -1,0 +1,30 @@
+.search{
+    margin-top: 35px;
+
+    &__container{
+        border-radius: var(--border-radius-small);
+        background-color: var(--color-accent);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 5px;
+
+        height: 50px;
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    &__input{
+        //расстягивает элемент на всю ширину
+        flex-grow: 1;
+        height: 100%;
+        border-radius: var(--border-radius-small);
+        padding: 0 24px;
+    }
+
+    &__btn{
+        height: 100%;
+    }
+}

@@ -1,0 +1,43 @@
+.header{
+    margin-top: 34px;
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+
+    &__descr{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+
+    &__controls{
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+
+        &-slach{
+            width: 1px;
+            height: 40px;
+            background-color: var(--color-dark);
+        }
+    }
+
+    &__link{
+        line-height: 17px;
+        // cursor: pointer;
+
+        &:hover{
+            color: var(--color-accent);
+
+        }
+    }
+}
