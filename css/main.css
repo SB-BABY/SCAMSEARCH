@@ -617,11 +617,22 @@ h4,
 .content__films-item-title h5 {
   font-weight: 700;
 }
+.content__films-category {
+  margin-top: 10px;
+  display: flex;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--color-gray-alt);
+}
+.content__films-category p {
+  margin: 0;
+}
 .content__films-descr {
   margin-top: 10px;
   font-size: 16px;
   line-height: 19px;
-  color: var(--color-gray-alt);
 }
 .content__films-rating {
   margin-top: 10px;

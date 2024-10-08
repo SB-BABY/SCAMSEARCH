@@ -46,9 +46,9 @@
         <!-- SEARCH -->
         <section class="search">
             <div class="container search__container">
-                <input type="text" class="search__input" placeholder="Что ищешь муд...">
+                <input id="search-input" type="text" class="search__input" placeholder="Что ищешь муд...">
 
-                <button class="search__btn">
+                <button id="search-btn" class="search__btn">
                     <span>Искать</span>
                 </button>
             </div>
@@ -66,12 +66,18 @@
 
                     <div class="content__films-list">
                         
-                        <div class="content__films-item">
+                        <!-- Шаблон для карточки -->
+                        <!-- <a href="item.html" class="content__films-item">
                             <img src="./image/CONTENT__FILM/1.jpg" alt="обложка" class="content__films-img" width="100%">
 
                             <div class="content__films-item-title">
                                 <h5>Xakep #303.</h5>
                                 <span>Свой Arch Linux</span>
+                            </div>
+
+                            <div class="content__films-category">
+                                <p>Linux</p>
+                                <p>Ban</p>
                             </div>
 
                             <p class="content__films-descr">
@@ -81,94 +87,7 @@
                             <p class="content__films-rating">
                                 8.9
                             </p>
-                        </div>
-
-                        <div class="content__films-item">
-                            <img src="./image/CONTENT__FILM/1.jpg" alt="обложка" class="content__films-img" width="100%">
-
-                            <div class="content__films-item-title">
-                                <h5>Xakep #303.</h5>
-                                <span>Свой Arch Linux</span>
-                            </div>
-
-                            <p class="content__films-descr">
-                                Дистрибутив Arch Linux любят за его настраиваемость: в процессе установки ты можешь выбрать все компоненты на свой вкус и получить ровно такую систему, какая тебе нужна.
-                            </p>
-
-                            <p class="content__films-rating">
-                                8.9
-                            </p>
-                        </div>
-
-                        <div class="content__films-item">
-                            <img src="./image/CONTENT__FILM/1.jpg" alt="обложка" class="content__films-img" width="100%">
-
-                            <div class="content__films-item-title">
-                                <h5>Xakep #303.</h5>
-                                <span>Свой Arch Linux</span>
-                            </div>
-
-                            <p class="content__films-descr">
-                                Дистрибутив Arch Linux любят за его настраиваемость: в процессе установки ты можешь выбрать все компоненты на свой вкус и получить ровно такую систему, какая тебе нужна.
-                            </p>
-
-                            <p class="content__films-rating">
-                                8.9
-                            </p>
-                        </div>
-
-                        <div class="content__films-item">
-                            <img src="./image/CONTENT__FILM/1.jpg" alt="обложка" class="content__films-img" width="100%">
-
-                            <div class="content__films-item-title">
-                                <h5>Xakep #303.</h5>
-                                <span>Свой Arch Linux</span>
-                            </div>
-
-                            <p class="content__films-descr">
-                                Дистрибутив Arch Linux любят за его настраиваемость: в процессе установки ты можешь выбрать все компоненты на свой вкус и получить ровно такую систему, какая тебе нужна.
-                            </p>
-
-                            <p class="content__films-rating">
-                                8.9
-                            </p>
-                        </div>
-
-                        <div class="content__films-item">
-                            <img src="./image/CONTENT__FILM/1.jpg" alt="обложка" class="content__films-img" width="100%">
-
-                            <div class="content__films-item-title">
-                                <h5>Xakep #303.</h5>
-                                <span>Свой Arch Linux</span>
-                            </div>
-
-                            <p class="content__films-descr">
-                                Дистрибутив Arch Linux любят за его настраиваемость: в процессе установки ты можешь выбрать все компоненты на свой вкус и получить ровно такую систему, какая тебе нужна.
-                            </p>
-
-                            <p class="content__films-rating">
-                                8.9
-                            </p>
-                        </div>
-
-                        <div class="content__films-item">
-                            <img src="./image/CONTENT__FILM/1.jpg" alt="обложка" class="content__films-img" width="100%">
-
-                            <div class="content__films-item-title">
-                                <h5>Xakep #303.</h5>
-                                <span>Свой Arch Linux</span>
-                            </div>
-
-                            <p class="content__films-descr">
-                                Дистрибутив Arch Linux любят за его настраиваемость: в процессе установки ты можешь выбрать все компоненты на свой вкус и получить ровно такую систему, какая тебе нужна.
-                            </p>
-
-                            <p class="content__films-rating">
-                                8.9
-                            </p>
-                        </div>
-
-
+                        </a> -->
                         
                     </div>
                 </div>
@@ -221,6 +140,7 @@
 
     <!-- SCRIPT -->
     <script src="./script/main.js"></script>
+    <script src="./script/script.js"></script>
     <!-- SCRIPT -->
 
     <!-- BURGER -->

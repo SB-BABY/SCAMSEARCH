@@ -63,11 +63,23 @@
         }
     }
 
+    &__films-category{
+        margin-top: 10px;
+        display: flex;
+        column-gap: 5px;
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--color-gray-alt);
+
+        p{
+            margin: 0;
+        }
+    }
+
     &__films-descr{
         margin-top: 10px;
         font-size: 16px;
         line-height: 19px;
-        color: var(--color-gray-alt);
     }
 
     &__films-rating{
